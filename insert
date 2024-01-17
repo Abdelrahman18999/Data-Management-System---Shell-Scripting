@@ -14,7 +14,7 @@ done
 # Main loop to get user input for the table name
 while true; do
     read -p "Enter table name: " table
-
+    valid_values+=()
     if [[ -f "$table" ]]; then
         metadata_table="${table}_metadata"
         number_of_fields=$(awk -F: 'NR==1 {print NF}' "$metadata_table")
