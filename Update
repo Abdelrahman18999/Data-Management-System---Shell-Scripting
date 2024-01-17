@@ -50,7 +50,7 @@ while true; do
 
                             if [[ "$constraint" == "unique" || "$constraint" == "pk"  ]]; then
 				echo "Update by column is not allowed for this column constrain"
-				break
+				exit
 				fi
 
 
