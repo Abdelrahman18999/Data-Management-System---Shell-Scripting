@@ -1,4 +1,4 @@
-# Data-Management-System---Shell-Scripting
+# DBMS Using Shell Scripting
 Welcome to the Data Management System powered by Bash/Shell scripting! This lightweight yet powerful system is designed to streamline and automate various data management tasks using the simplicity and efficiency of Bash scripting.
 
 # Our Terminology
